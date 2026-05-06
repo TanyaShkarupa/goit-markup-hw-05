@@ -712,6 +712,7 @@ body {
 }
 
 .modal-form-input {
+  line-height: 2;
   width: 100%;
   height: 40px;
   padding: 8px 38px;
@@ -815,7 +816,7 @@ body {
   color: #4d5ae5;
 }
 
-.checkbox-input:checked + .policy-label ~ .policy-checkbox {
+.checkbox-input:checked + .policy-label + .policy-checkbox {
   border: none;
   background-color: #404ddb;
   fill: #f4f4fd;
