@@ -517,7 +517,6 @@ body {
 }
 
 .subscribe-form-input {
-  line-height: 2;
   width: 264px;
   height: 40px;
   padding: 8px 16px;
@@ -532,6 +531,7 @@ body {
 
 .subscribe-form-input,
 .subscribe-form-input::placeholder {
+  line-height: 2;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
@@ -705,6 +705,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .modal-input-wrapper {
@@ -816,7 +817,13 @@ body {
   color: #4d5ae5;
 }
 
-.checkbox-input:checked + .policy-label + .policy-checkbox {
+.checkbox-input:checked {
+  border: none;
+  background-color: #404ddb;
+  fill: #f4f4fd;
+}
+
+.policy-label + .policy-checkbox {
   border: none;
   background-color: #404ddb;
   fill: #f4f4fd;
